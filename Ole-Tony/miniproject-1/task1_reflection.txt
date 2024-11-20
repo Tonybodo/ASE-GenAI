@@ -22,7 +22,7 @@ biggest problems we faced was the way that the likes table works - it uses both 
 and the personid as a key. For a long time, we were trying to join this table using only the
 message id.
 
-Using ChatGPT (daily free buget of GPT-4) as a LLM, we were not very successful at the beginning. After prompting it to
+Using ChatGPT (daily free buget of GPT-4o) as a LLM, we were not very successful at the beginning. After prompting it to
 solve this task and giving it the sql schema, it failed to produce a correct output or it tooked to
 long so that we need to interrupted the process instead of waiting till the end (more than 5min).
 After finetuning our prompt we decided to giv only the relevant attributes and table for the task,
